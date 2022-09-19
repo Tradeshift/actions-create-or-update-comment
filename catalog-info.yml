@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: actions-create-or-update-comment
+  description: |
+    A GitHub action to create or update an issue or pull request comment
+  annotations:
+    github.com/project-slug: Tradeshift/actions-create-or-update-comment
+  tags:
+    - github-action
+    - nodejs
+    - fork
+spec:
+  type: library
+  owner: developer-productivity
+  lifecycle: production
